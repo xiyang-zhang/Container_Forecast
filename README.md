@@ -1,17 +1,20 @@
 # Container_Forecast
-A data project of forecasting container statistics at the Port of Vancouver.
+A data project of forecasting container statistics at the Port of Vancouver, providing insights and measures for future revenue planing, budget and resource allocation. Two major steps are included in this project:
 1. Cleaning data from pdf published by [Port of Vancouver](https://www.portvancouver.com/reports-and-resources).
 2. Establish prophet forecasting models for parameters.
 
 ## Tools
-- Prophet
+- [prophet](https://facebook.github.io/prophet/)
 - tabula
 - matplotlib
 
 ## Results
-Best model has the mininum testing mean absolute error over 12 months prediction.
+- Best model has the mininum testing mean absolute error over 12 months prediction.
+
 ![Best Model](figures/Model_3.png)
 ![Best Model Components](figures/Model_3_components.png)
+
+- The final forecast results are listed as follows.
 ![Forecast Future](figures/Final_Model.png)
 
 ## TODOs
