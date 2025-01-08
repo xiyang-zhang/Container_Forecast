@@ -1,7 +1,16 @@
 # Container_Forecast
-A data project of forecasting container statistics at the Port of Vancouver, providing insights and measures for future revenue planing, budget and resource allocation. Two major steps are included in this project:
+## Introduction
+
+**Forecasting Container Counts at the Port of Vancouver: A Data-Driven Approach to Optimize Operations and Economic Planning**
+
+The Port of Vancouver, Canada's largest and North America's fourth largest port, serves as a critical hub for trade and economic activity. Accurate forecasting of container statistics is essential for understanding supply-demand dynamics, which are pivotal to maintaining economic balance in Canada. These forecasts directly influence the precision of weighted indices like the RWI/ISL Container Throughput Index, a key measure of global trade activity.
+
+Moreover, reliable container forecasts enable informed decision-making in several operational and strategic areas. They support accurate revenue planning, efficient budget and resource allocation, optimized route arrangements, and early detection of shifts in trade patterns. By providing actionable insights, these forecasts empower stakeholders to adapt proactively to changes in market demand, ensuring the port's role as a cornerstone of Canadian trade and economic stability.
+
+There are three major steps related to data in this project:
 1. Cleaning data from pdf published by [Port of Vancouver](https://www.portvancouver.com/reports-and-resources).
-2. Establish prophet forecasting models for parameters.
+2. Establish prophet forecasting models for metrics, including estimating the COVID-19 influence on each metric.
+3. Estimate the future influence on supply and demand. Explore other possible applications (TODO).
 
 ## Tools
 - [prophet](https://facebook.github.io/prophet/)
@@ -42,6 +51,7 @@ There are also other TODOs:
 1. Try other modelling techniques, such as techniques shown in [Kaggle](https://www.kaggle.com/code/cabaxiom/s5e1-previous-years-baseline-no-model#Disaggregating-Total-Sales-Forecast).
 2. Develop other models, such as [NeuralProphet](https://medium.com/@cuongduong_35162/facebook-prophet-in-2023-and-beyond-c5086151c138), [Explainable Forecasting at Scale](https://arxiv.org/abs/2111.15397?fbclid=IwAR2vCkHYiy5yuPPjWXpJgAJs-uD5NkH4liORt1ch4a6X_kmpMqagGtXyez4).
 3. Try [model combination](https://otexts.com/fpp3/combinations.html).
+4. Add analysis of predicted results, e.g., changes in [RWI/ISL container throughput index](https://www.isl.org/en/services/rwiisl-container-throughput-index).
 
 ## References
 - [Container Statistics Report 2008 - 2024](https://www.portvancouver.com/media/documents/container-statistics-monthly-2008-2024)
