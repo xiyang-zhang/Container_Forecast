@@ -3,14 +3,14 @@
 
 **Forecasting Container Counts at the Port of Vancouver: A Data-Driven Approach to Optimize Operations and Economic Planning**
 
-The Port of Vancouver, Canada's largest and North America's fourth largest port, serves as a critical hub for trade and economic activity. Accurate forecasting of container statistics is essential for understanding supply-demand dynamics, which are pivotal to maintaining economic balance in Canada. These forecasts directly influence the precision of weighted indices like the RWI/ISL Container Throughput Index, a key measure of global trade activity.
+The Port of Vancouver, Canada's largest and North America's fourth largest port, serves as a critical hub for trade and economic activity. Accurate forecasting of container statistics is essential for understanding supply-demand dynamics, which are pivotal to maintaining economic balance in Canada. These forecasts directly influence the precision of weighted indices like the [RWI/ISL Container Throughput Index](https://www.isl.org/en/services/rwiisl-container-throughput-index), a key measure of global trade activity.
 
 Moreover, reliable container forecasts enable informed decision-making in several operational and strategic areas. They support accurate revenue planning, efficient budget and resource allocation, optimized route arrangements, and early detection of shifts in trade patterns. By providing actionable insights, these forecasts empower stakeholders to adapt proactively to changes in market demand, ensuring the port's role as a cornerstone of Canadian trade and economic stability.
 
-There are three major steps related to data in this project:
+There are three major steps in this project:
 1. Cleaning data from pdf published by [Port of Vancouver](https://www.portvancouver.com/reports-and-resources).
 2. Establish prophet forecasting models for metrics, including estimating the COVID-19 influence on each metric.
-3. Estimate the future influence on supply and demand. Explore other possible applications (TODO).
+3. (TODO) Estimate the future influence on supply and demand. Explore all possible applications.
 
 ## Tools
 - [prophet](https://facebook.github.io/prophet/)
@@ -64,3 +64,4 @@ There are also other TODOs:
 - [COVID19 Pandemic period in China](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_mainland_China#December_2022%E2%80%93January_2023_surge)
 - [Transport Canada's 2021 report](https://tc.canada.ca/en/corporate-services/transparency/briefing-documents-transport-canada/2021/current-topics/canada-s-freight-transportation-system-global-crisis-container-shipping-supply-chains)
 - [COVID‑19 stringency index in Canada](https://www.bankofcanada.ca/markets/market-operations-liquidity-provision/covid-19-actions-support-economy-financial-system/covid-19-stringency-index/)
+- [RWI/ISL Container Throughput Index](https://www.isl.org/en/services/rwiisl-container-throughput-index)
